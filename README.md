@@ -69,7 +69,7 @@ Usage
 ```javascript
 'use strict'
 
-const {TheDriverMongo} = require('the-driver-mongo')
+const {MongoDriver} = require('the-driver-mongo')
 
 async function tryExample () {
 
