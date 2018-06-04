@@ -4,7 +4,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a TheDriverMongo instance",
+            "description": "Create a MongoDriver instance",
             "parameters": [
                 {
                     "name": "args",
@@ -17,22 +17,32 @@
             ],
             "examples": [],
             "returns": {
-                "type": "TheDriverMongo",
+                "type": "MongoDriver",
                 "description": ""
             }
+        },
+        {
+            "name": "mongoMix",
+            "access": "",
+            "virtual": false,
+            "description": "Mixin of mongodb",
+            "parameters": [],
+            "examples": []
         }
     ],
     "classes": [
         {
-            "name": "TheDriverMongo",
+            "name": "MongoDriver",
             "description": "",
-            "extends": [],
+            "extends": [
+                "Driver"
+            ],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "TheDriverMongo",
-                "description": "",
+                "name": "MongoDriver",
+                "description": "Driver for mongo db",
                 "parameters": [],
                 "examples": []
             }
