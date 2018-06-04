@@ -89,9 +89,8 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-driver-mongo@1.0.0](./doc/api/api.md)
++ [the-driver-mongo@1.0.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-driver-mongo-function-create)
-  + [TheDriverMongo](./doc/api/api.md#the-driver-mongo-class)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->
