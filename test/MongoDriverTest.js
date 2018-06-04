@@ -22,9 +22,13 @@ describe('mongo-driver', () => {
     })
     await driver.drop('User')
 
-    const created = await driver.create('User', {name: 'user01'})
+    const created = await driver.create('User', {
+      name: 'user01',
+      at: new Date()
+    })
     equal(created.name, 'user01')
     ok(created.id)
+    ok(created.at instanceof Date)
 
     {
       const one = await driver.one('User', created.id)
