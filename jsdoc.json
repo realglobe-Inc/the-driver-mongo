@@ -1,0 +1,41 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheDriverMongo instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheDriverMongo",
+                "description": ""
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "TheDriverMongo",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheDriverMongo",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        }
+    ]
+}
