@@ -59,6 +59,13 @@ describe('mongo-driver', () => {
     ok(
       await driver.resources()
     )
+
+    {
+      const hoge01 = await driver.create('Hoge', {
+        $$at: new Date()
+      })
+      ok(hoge01.$$at)
+    }
     await driver.close()
   })
 
