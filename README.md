@@ -89,7 +89,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-driver-mongo@1.0.8](./doc/api/api.md)
++ [the-driver-mongo@1.0.9](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-driver-mongo-function-create)
 
 
