@@ -42,6 +42,9 @@ describe('mongo-driver', () => {
       equal(updated.age, 33)
       ok(updated.id)
     }
+    {
+      await driver.update('User', created.id, {})
+    }
 
     {
       const list = await driver.list('User')
