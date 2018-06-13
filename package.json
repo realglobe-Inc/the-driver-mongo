@@ -1,7 +1,7 @@
 {
   "name": "the-driver-mongo",
   "description": "Mongo driver for the-db",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": {
     "name": "okunishinishi",
     "email": "okunishinishi@gmail.com",
